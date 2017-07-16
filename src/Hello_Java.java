@@ -9,7 +9,7 @@ interface HelloLib extends Library {
 
 public class Hello_Java {
 	public static void main(String[] args) {
-		System.out.println("ŒÄ‚Ño‚µŒ³¢Hello_Java£‚©‚ço—Í\n");
+		System.out.println("å‘¼ã³å‡ºã—å…ƒï½¢Hello_Javaï½£ã‹ã‚‰å‡ºåŠ›\n");
 
 		HelloLib hello = HelloLib.INSTANCE;
 		hello.Hello();
