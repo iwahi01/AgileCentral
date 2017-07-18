@@ -10,7 +10,7 @@ interface HelloLib extends Library {
 public class Hello_Java {
 	public static void main(String[] args) {
 		System.out.println("呼び出し元｢Hello_Java｣から出力\n");
-//Update for DE1
+//Update DE1
 		HelloLib hello = HelloLib.INSTANCE;
 		hello.Hello();
   }
